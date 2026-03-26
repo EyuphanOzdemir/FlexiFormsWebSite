@@ -762,7 +762,7 @@ h3 {
 .pricing-hero h1 {
   max-width: 12ch;
   margin-bottom: 0.85rem;
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(1.6rem, 3vw, 2.35rem);
 }
 
 .pricing-hero > p:not(.eyebrow) {
