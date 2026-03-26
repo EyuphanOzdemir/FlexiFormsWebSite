@@ -23,98 +23,166 @@
   <main class="page-main">
     <div class="container">
       <section class="page-panel page-stack">
-        <table class="pricing-table">
-          <thead>
-            <tr>
-              <th>Pricing Plan</th>
-              <th>Available Forms</th>
-              <th>Features Included</th>
-              <th>Charged Monthly (NZD)</th>
-              <th>Charged Annually - per month (NZD)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><div class="plan-name">Free Trial</div></td>
-              <td>One form hosted in a test environment</td>
-              <td>
-                <ul class="bullet-list">
-                  <li>Lists</li>
-                  <li>API data sources</li>
-                  <li>Dynamic data injection into form</li>
-                  <li>Default values from API</li>
-                  <li>Email jobs only</li>
-                  <li>Email limit 100 daily</li>
-                  <li>Standard delivery only</li>
-                </ul>
-              </td>
-              <td class="price-cell">$0<br><a href="./free-plan-details.html">details</a></td>
-              <td class="price-cell">$0<br><a href="./free-plan-details.html">details</a></td>
-            </tr>
-            <tr>
-              <td><div class="plan-name">Shared</div></td>
-              <td>Entry hosted plan</td>
-              <td>Lightweight entry point for smaller deployments.</td>
-              <td class="price-cell">$20<br><a href="https://buy.stripe.com/3cI8wQbhMeuC51x5dz4c808" target="_blank" rel="noreferrer">buy</a></td>
-              <td class="price-cell">N/A<br><a href="./shared-plan-details.html">details</a></td>
-            </tr>
-            <tr>
-              <td><div class="plan-name">Basic</div></td>
-              <td>Unlimited</td>
-              <td>
-                <ul class="bullet-list">
-                  <li>All job types</li>
-                  <li>Email limit 100 daily</li>
-                  <li>PDF limit 500 monthly</li>
-                  <li>Form design from PDF</li>
-                  <li>All delivery methods</li>
-                  <li>AI usage: $10 monthly</li>
-                  <li>AI inferences and job rules</li>
-                  <li>User verification</li>
-                </ul>
-              </td>
-              <td class="price-cell">$79.35<br><a href="https://buy.stripe.com/fZu5kEadIgCK51x8pL4c806" target="_blank" rel="noreferrer">buy</a></td>
-              <td class="price-cell">$55.54<br><a href="https://buy.stripe.com/fZu14oadI5Y69hN21n4c805" target="_blank" rel="noreferrer">buy</a></td>
-            </tr>
-            <tr>
-              <td><div class="plan-name">Pro</div></td>
-              <td>Unlimited</td>
-              <td>
-                <ul class="bullet-list">
-                  <li>Email limit 100,000 monthly</li>
-                  <li>PDF limit 500 monthly</li>
-                  <li>PDF as displayed on form</li>
-                  <li>All form delivery methods</li>
-                  <li>Form data manager</li>
-                  <li>AI usage: $20 monthly</li>
-                </ul>
-              </td>
-              <td class="price-cell">$157.75<br><a href="https://buy.stripe.com/7sY7sMclQ1HQctZ49v4c804" target="_blank" rel="noreferrer">buy</a></td>
-              <td class="price-cell">$110.20<br><a href="https://buy.stripe.com/6oU14oclQeuCbpVcG14c803" target="_blank" rel="noreferrer">buy</a></td>
-            </tr>
-            <tr>
-              <td><div class="plan-name">Premium</div></td>
-              <td>Unlimited</td>
-              <td>
-                <ul class="bullet-list">
-                  <li>Email limit 250,000 monthly</li>
-                  <li>PDF limit 2500 monthly</li>
-                  <li>Standard plus controlled and uncontrolled unique-user delivery</li>
-                  <li>AI usage: $30 monthly</li>
-                </ul>
-              </td>
-              <td class="price-cell">$223.10<br><a href="https://buy.stripe.com/bJe4gA1Hcdqy51xfSd4c802" target="_blank" rel="noreferrer">buy</a></td>
-              <td class="price-cell">$156.11<br><a href="https://buy.stripe.com/3cIbJ21Hc3PY65B5dz4c801" target="_blank" rel="noreferrer">buy</a></td>
-            </tr>
-            <tr>
-              <td><div class="plan-name">Enterprise</div></td>
-              <td>Custom</td>
-              <td>Special pricing plan for your unique needs.</td>
-              <td class="price-cell">$POA<br><a href="./enterprise-plan-details.html">details</a></td>
-              <td class="price-cell">$POA<br><a href="./enterprise-plan-details.html">details</a></td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="section-heading narrow page-intro">
+          <p class="eyebrow">Pricing Plans</p>
+          <h1>Choose the right FlexiForms setup for your workflow.</h1>
+          <p>From trial access to larger production rollouts, every plan is designed around real delivery, routing and automation needs.</p>
+        </div>
+
+        <div class="plan-grid">
+          <article class="plan-card">
+            <div class="plan-top">
+              <div>
+                <p class="plan-badge">Trial</p>
+                <h2 class="plan-title">Free Trial</h2>
+                <p class="plan-summary">One form hosted in a test environment for short-term evaluation.</p>
+              </div>
+              <div class="plan-price-group">
+                <p class="plan-price">$0</p>
+                <p class="plan-price-note">7-day access</p>
+              </div>
+            </div>
+            <ul class="bullet-list">
+              <li>Lists</li>
+              <li>API data sources</li>
+              <li>Dynamic data injection into form</li>
+              <li>Default values from API</li>
+              <li>Email jobs only</li>
+              <li>Email limit 100 daily</li>
+              <li>Standard delivery only</li>
+            </ul>
+            <div class="plan-actions">
+              <a class="button-inline" href="./free-plan-details.html">View details</a>
+            </div>
+          </article>
+
+          <article class="plan-card">
+            <div class="plan-top">
+              <div>
+                <p class="plan-badge">Starter</p>
+                <h2 class="plan-title">Shared</h2>
+                <p class="plan-summary">Entry hosted plan for smaller deployments on a shared production environment.</p>
+              </div>
+              <div class="plan-price-group">
+                <p class="plan-price">$20</p>
+                <p class="plan-price-note">monthly NZD</p>
+              </div>
+            </div>
+            <ul class="bullet-list">
+              <li>Production-hosted entry plan</li>
+              <li>Simple rollout path for smaller teams</li>
+              <li>Lightweight hosted deployment</li>
+            </ul>
+            <div class="plan-actions">
+              <a class="button-inline" href="https://buy.stripe.com/3cI8wQbhMeuC51x5dz4c808" target="_blank" rel="noreferrer">Buy monthly</a>
+              <a class="button-inline" href="./shared-plan-details.html">View details</a>
+            </div>
+          </article>
+
+          <article class="plan-card plan-card-featured">
+            <div class="plan-top">
+              <div>
+                <p class="plan-badge">Popular</p>
+                <h2 class="plan-title">Basic</h2>
+                <p class="plan-summary">Unlimited forms with all core delivery methods and workflow jobs.</p>
+              </div>
+              <div class="plan-price-group">
+                <p class="plan-price">$79.35</p>
+                <p class="plan-subprice">$55.54 annually per month</p>
+              </div>
+            </div>
+            <ul class="bullet-list">
+              <li>Unlimited forms</li>
+              <li>All job types</li>
+              <li>Email limit 100 daily</li>
+              <li>PDF limit 500 monthly</li>
+              <li>Form design from PDF</li>
+              <li>All delivery methods</li>
+              <li>AI usage: $10 monthly</li>
+              <li>AI inferences and job rules</li>
+              <li>User verification</li>
+            </ul>
+            <div class="plan-actions">
+              <a class="button-inline" href="https://buy.stripe.com/fZu5kEadIgCK51x8pL4c806" target="_blank" rel="noreferrer">Buy monthly</a>
+              <a class="button-inline" href="https://buy.stripe.com/fZu14oadI5Y69hN21n4c805" target="_blank" rel="noreferrer">Buy annually</a>
+            </div>
+          </article>
+
+          <article class="plan-card">
+            <div class="plan-top">
+              <div>
+                <p class="plan-badge">Growth</p>
+                <h2 class="plan-title">Pro</h2>
+                <p class="plan-summary">Higher-volume production plan with expanded email capacity and richer output options.</p>
+              </div>
+              <div class="plan-price-group">
+                <p class="plan-price">$157.75</p>
+                <p class="plan-subprice">$110.20 annually per month</p>
+              </div>
+            </div>
+            <ul class="bullet-list">
+              <li>Unlimited forms</li>
+              <li>Email limit 100,000 monthly</li>
+              <li>PDF limit 500 monthly</li>
+              <li>PDF as displayed on form</li>
+              <li>All form delivery methods</li>
+              <li>Form data manager</li>
+              <li>AI usage: $20 monthly</li>
+            </ul>
+            <div class="plan-actions">
+              <a class="button-inline" href="https://buy.stripe.com/7sY7sMclQ1HQctZ49v4c804" target="_blank" rel="noreferrer">Buy monthly</a>
+              <a class="button-inline" href="https://buy.stripe.com/6oU14oclQeuCbpVcG14c803" target="_blank" rel="noreferrer">Buy annually</a>
+            </div>
+          </article>
+
+          <article class="plan-card">
+            <div class="plan-top">
+              <div>
+                <p class="plan-badge">Scale</p>
+                <h2 class="plan-title">Premium</h2>
+                <p class="plan-summary">Best fit for larger-volume workflows that need more throughput and advanced delivery control.</p>
+              </div>
+              <div class="plan-price-group">
+                <p class="plan-price">$223.10</p>
+                <p class="plan-subprice">$156.11 annually per month</p>
+              </div>
+            </div>
+            <ul class="bullet-list">
+              <li>Unlimited forms</li>
+              <li>Email limit 250,000 monthly</li>
+              <li>PDF limit 2500 monthly</li>
+              <li>Standard plus controlled and uncontrolled unique-user delivery</li>
+              <li>AI usage: $30 monthly</li>
+            </ul>
+            <div class="plan-actions">
+              <a class="button-inline" href="https://buy.stripe.com/bJe4gA1Hcdqy51xfSd4c802" target="_blank" rel="noreferrer">Buy monthly</a>
+              <a class="button-inline" href="https://buy.stripe.com/3cIbJ21Hc3PY65B5dz4c801" target="_blank" rel="noreferrer">Buy annually</a>
+            </div>
+          </article>
+
+          <article class="plan-card">
+            <div class="plan-top">
+              <div>
+                <p class="plan-badge">Custom</p>
+                <h2 class="plan-title">Enterprise</h2>
+                <p class="plan-summary">Tailored pricing and deployment options for unique business, infrastructure or compliance needs.</p>
+              </div>
+              <div class="plan-price-group">
+                <p class="plan-price">$POA</p>
+                <p class="plan-price-note">priced on application</p>
+              </div>
+            </div>
+            <ul class="bullet-list">
+              <li>Custom rollout and hosting arrangements</li>
+              <li>Designed around your infrastructure needs</li>
+              <li>Pricing shaped to your use case</li>
+            </ul>
+            <div class="plan-actions">
+              <a class="button-inline" href="./enterprise-plan-details.html">View details</a>
+              <a class="button-inline" href="./contact.html">Contact us</a>
+            </div>
+          </article>
+        </div>
       </section>
     </div>
   </main>
